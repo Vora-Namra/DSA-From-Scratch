@@ -3,7 +3,7 @@
 public class Linear_search{
     
     private static int linear(int[] arr, int n,int key) {
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){                //Iterate complete array through each element while comparing it with key element.
          if(arr[i] == key){
              return i;
          }
@@ -13,8 +13,8 @@ public class Linear_search{
      
     public static void main(String[] args) {
         int arr[] = {5,65,87,34,90,12,6,78,44};    
-        int key = 78; 
-        int n = arr.length;
+        int key = 78;                                
+        int n = arr.length;                            
         
         int index = linear(arr,n,key);
         if(index == -1){
