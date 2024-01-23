@@ -8,7 +8,7 @@ public class Linear_search{
              return i;
          }
          }
-         return -1;
+         return -1;                                         
         }
      
     public static void main(String[] args) {
@@ -24,6 +24,9 @@ public class Linear_search{
             System.out.println("Element found at index " + index);
         }
     }
-
+//Time Complexity
+//worst-case: O(n)
+//Best-Case: O(1)
 }
+
 
