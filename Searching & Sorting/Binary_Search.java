@@ -21,7 +21,7 @@ class Binary_Search {
 	public static void main(String args[])
 	{
 		Binary_Search ob = new Binary_Search();
-		int arr[] = { 12,23,34,45,56,67,78,89,90,92,96,99};
+		int arr[] = {12,23,34,45,56,67,78,89,90,92,96,99};
 		int n = arr.length;
 		int x = 92;
 
