@@ -1,7 +1,7 @@
 
 import java.io.*;
 
-class Merge_sort {
+class quick_sort {
 
 	static void swap(int[] arr, int i, int j)
 	{
