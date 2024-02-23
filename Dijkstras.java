@@ -1,7 +1,4 @@
 
-import java.io.*;
-import java.lang.*;
-import java.util.*;
 
 class Dijkstras {
 	static final int V = 9;
